@@ -11,3 +11,6 @@ Javascript:
 store user data
 initiate bid/ask interface
 call c++ through terminal by using child_process from node js to run, pass arguments via terminal
+
+
+Applications: could be used to create a PE exchange where the exchange is its own market maker, issuer and transaction hub. Could expanded by creating a website that stores / verifies investor data, they are then free to invest in any opportunity stored on website. website would basically have a bunch of sub PE-Marketplaces.
