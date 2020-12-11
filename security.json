@@ -1,0 +1,16 @@
+{
+  "security_id": "00a00d0edc750db4a0c299dd1ec0c6871f5a4f24",
+  "metadata": {
+    "title": "Sample-Security",
+    "liable_parties": ["shareholder_one", "shareholder_two"],
+    "initial_split": [60,40],
+    "initial_offering": "$500"
+  },
+  "share_volume": 1000,
+  "abstract": [],
+  "contract_text":
+    {
+      "security_overview": "general information regarding security and institution that is being offered",
+      "investor_agreement": "**insert risks and responsabilities associated with investment**"
+    }
+}

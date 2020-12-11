@@ -1,0 +1,2 @@
+equity_holder_1: 600
+equity_holder_2: 400
