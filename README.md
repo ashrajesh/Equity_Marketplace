@@ -1,5 +1,6 @@
 # PE-Marketplace
 concept for bid / ask orders for private equity within a closed ledger. Use as template for individual securities.
+can be thought of as an interactive capitalization table that updates itself
 
 opens up possibilities for alternative asset trading including: real estate, 
 
