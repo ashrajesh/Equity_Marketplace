@@ -5,6 +5,7 @@
 #ifndef UNTITLED9_TRADE_INTERFACE_H
 #define UNTITLED9_TRADE_INTERFACE_H
 
+#include <iostream>
 
 class trade_interface {
 

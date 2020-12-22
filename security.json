@@ -8,6 +8,10 @@
   },
   "share_volume": 1000,
   "abstract": [],
+  "cap_table": {
+    "share_holder_ID": ["",""],
+    "respective_holding": [600, 400]
+  },
   "contract_text":
     {
       "security_overview": "general information regarding security and institution that is being offered",

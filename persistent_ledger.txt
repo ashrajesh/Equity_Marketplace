@@ -1,2 +1,13 @@
-equity_holder_1: 600
-equity_holder_2: 400
+test_user bids x shares for y
+
+test_user_two buy market price
+
+order executed
+buyer: test_user
+seller: test_user_two
+price: $450
+
+
+sell,num_shares,(market/int price)
+buy,num_shares,(market/int price)
+user_one,user_two,new_market_price
