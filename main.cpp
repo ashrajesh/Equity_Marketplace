@@ -1,5 +1,7 @@
 #include <iostream>
 
+#define CATCH_CONFIG_RUNNER
+#include "catch.hpp"
 
 //process order function that interacts with outside world
 // hash table stores username and hashed_code, check whether ^^^ function matches any user
@@ -12,7 +14,14 @@
 
 // have an avl tree store user objects, accessed after verification from hash_table
 int main(int argc, char** argv) {
-    std::cout << "Hello, World!" << std::endl;
+    if(argc==1){Catch::Session().run(); return 0;}
+    else{std::cout<< "catch session not run" << std::endl << std::endl;}
+
+    std::cout << "Select an option: " << std::endl;
+    int option;
+    std::cin >> option;
+    // parse secret_index and populate hash_table
+
     // parse simdjson to find total outstanding shares
     // every new order by user removes old order
 

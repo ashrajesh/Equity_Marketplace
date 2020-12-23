@@ -9,7 +9,7 @@
   "share_volume": 1000,
   "abstract": [],
   "cap_table": {
-    "share_holder_ID": ["",""],
+    "share_holder_ID": ["shareholder_one","shareholder_two"],
     "respective_holding": [600, 400]
   },
   "contract_text":

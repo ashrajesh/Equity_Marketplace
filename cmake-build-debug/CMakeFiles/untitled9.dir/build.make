@@ -108,12 +108,40 @@ CMakeFiles/untitled9.dir/query_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled9.dir/query_processor.cpp.s"
 	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\query_processor.cpp -o CMakeFiles\untitled9.dir\query_processor.cpp.s
 
+CMakeFiles/untitled9.dir/order.cpp.obj: CMakeFiles/untitled9.dir/flags.make
+CMakeFiles/untitled9.dir/order.cpp.obj: ../order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled9.dir/order.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled9.dir\order.cpp.obj -c C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\order.cpp
+
+CMakeFiles/untitled9.dir/order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled9.dir/order.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\order.cpp > CMakeFiles\untitled9.dir\order.cpp.i
+
+CMakeFiles/untitled9.dir/order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled9.dir/order.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\order.cpp -o CMakeFiles\untitled9.dir\order.cpp.s
+
+CMakeFiles/untitled9.dir/Test.cpp.obj: CMakeFiles/untitled9.dir/flags.make
+CMakeFiles/untitled9.dir/Test.cpp.obj: ../Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled9.dir/Test.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled9.dir\Test.cpp.obj -c C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\Test.cpp
+
+CMakeFiles/untitled9.dir/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled9.dir/Test.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\Test.cpp > CMakeFiles\untitled9.dir\Test.cpp.i
+
+CMakeFiles/untitled9.dir/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled9.dir/Test.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\Test.cpp -o CMakeFiles\untitled9.dir\Test.cpp.s
+
 # Object files for target untitled9
 untitled9_OBJECTS = \
 "CMakeFiles/untitled9.dir/main.cpp.obj" \
 "CMakeFiles/untitled9.dir/trade_interface.cpp.obj" \
 "CMakeFiles/untitled9.dir/user.cpp.obj" \
-"CMakeFiles/untitled9.dir/query_processor.cpp.obj"
+"CMakeFiles/untitled9.dir/query_processor.cpp.obj" \
+"CMakeFiles/untitled9.dir/order.cpp.obj" \
+"CMakeFiles/untitled9.dir/Test.cpp.obj"
 
 # External object files for target untitled9
 untitled9_EXTERNAL_OBJECTS =
@@ -122,11 +150,13 @@ untitled9.exe: CMakeFiles/untitled9.dir/main.cpp.obj
 untitled9.exe: CMakeFiles/untitled9.dir/trade_interface.cpp.obj
 untitled9.exe: CMakeFiles/untitled9.dir/user.cpp.obj
 untitled9.exe: CMakeFiles/untitled9.dir/query_processor.cpp.obj
+untitled9.exe: CMakeFiles/untitled9.dir/order.cpp.obj
+untitled9.exe: CMakeFiles/untitled9.dir/Test.cpp.obj
 untitled9.exe: CMakeFiles/untitled9.dir/build.make
 untitled9.exe: CMakeFiles/untitled9.dir/linklibs.rsp
 untitled9.exe: CMakeFiles/untitled9.dir/objects1.rsp
 untitled9.exe: CMakeFiles/untitled9.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled9.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ashwi\OneDrive\Documents\GitHub\PE-Marketplace\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled9.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled9.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

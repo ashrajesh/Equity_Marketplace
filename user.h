@@ -9,22 +9,29 @@
 
 class user {
 private:
-    int balance;
+    double credits;
+    double debits;
+    int shares_owned;
     std::string name;
     std::string hash_identifier;
 
 public:
     user();
-    user(std::string ID);
-    ~user(){};
+    user(std::string temp_hash, std::string temp_name, double debit, double credit, int temp_owned);
+    ~user()= default;
 
     void debit(int val);
     void credit(int val);
 
     void modify_ownership(int shares);
 
-    std::string new_user(std::string name); // provides 1 time hash that you will need to save (e.g. admin could email or manipulate secret index), appends hash table, sends hash to websocket
+    double get_balance(); // return credits+debits
 
+    /// move to private:
+    std::string new_user(std::string& temp_name); // provides 1 time hash that you will need to save (e.g. admin could email or manipulate secret index), appends hash table, sends hash to websocket
+
+    bool operator== (user& user_ref);
+    friend std::ostream& operator << (std::ostream& out, user& user_ref);
 
 };
 

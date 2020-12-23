@@ -122,6 +122,33 @@ untitled9/fast:
 	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/build
 .PHONY : untitled9/fast
 
+Test.obj: Test.cpp.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -148,6 +175,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+order.obj: order.cpp.obj
+
+.PHONY : order.obj
+
+# target to build an object file
+order.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/order.cpp.obj
+.PHONY : order.cpp.obj
+
+order.i: order.cpp.i
+
+.PHONY : order.i
+
+# target to preprocess a source file
+order.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/order.cpp.i
+.PHONY : order.cpp.i
+
+order.s: order.cpp.s
+
+.PHONY : order.s
+
+# target to generate assembly for a file
+order.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/order.cpp.s
+.PHONY : order.cpp.s
 
 query_processor.obj: query_processor.cpp.obj
 
@@ -239,9 +293,15 @@ help:
 	@echo ... untitled9
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... order.obj
+	@echo ... order.i
+	@echo ... order.s
 	@echo ... query_processor.obj
 	@echo ... query_processor.i
 	@echo ... query_processor.s

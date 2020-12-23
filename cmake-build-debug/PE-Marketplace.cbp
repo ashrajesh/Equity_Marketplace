@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/Test.cpp">
+			<Option target="untitled9"/>
+		</Unit>
 		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/main.cpp">
+			<Option target="untitled9"/>
+		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/order.cpp">
+			<Option target="untitled9"/>
+		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/order.h">
 			<Option target="untitled9"/>
 		</Unit>
 		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/query_processor.cpp">

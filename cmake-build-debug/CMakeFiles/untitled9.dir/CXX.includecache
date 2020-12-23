@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/main.cpp
-iostream
--
-
-C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/query_processor.cpp
-query_processor.h
-C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/query_processor.h
-
-C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/query_processor.h
-
 C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/trade_interface.cpp
 trade_interface.h
 C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/trade_interface.h
+fstream
+-
+sstream
+-
 
 C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/trade_interface.h
 iostream
 -
-
-C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/user.cpp
+map
+-
 user.h
 C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/user.h
 
