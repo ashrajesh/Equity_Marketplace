@@ -19,6 +19,11 @@ void display_asks(){}
 
 //
 
-
+// pass in user* to functions
 
 // have a queue for each price (map of linked lists)
+// linked list of order objects (can be parsed in upon startup from indexed queues)
+
+// buy market, always add to queue (for lowest on opposite queue)
+// run check_order() function that calls execute_order() function if match made
+// if no bids at market

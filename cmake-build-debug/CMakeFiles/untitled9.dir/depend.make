@@ -11,10 +11,20 @@ CMakeFiles/untitled9.dir/main.cpp.obj: ../main.cpp
 
 CMakeFiles/untitled9.dir/order.cpp.obj: ../order.cpp
 CMakeFiles/untitled9.dir/order.cpp.obj: ../order.h
+CMakeFiles/untitled9.dir/order.cpp.obj: ../user.h
 
 CMakeFiles/untitled9.dir/query_processor.cpp.obj: ../query_processor.cpp
 CMakeFiles/untitled9.dir/query_processor.cpp.obj: ../query_processor.h
 
+CMakeFiles/untitled9.dir/queue.cpp.obj: ../order.h
+CMakeFiles/untitled9.dir/queue.cpp.obj: ../queue.cpp
+CMakeFiles/untitled9.dir/queue.cpp.obj: ../queue.h
+CMakeFiles/untitled9.dir/queue.cpp.obj: ../user.h
+
+CMakeFiles/untitled9.dir/simdjson.cpp.obj: ../simdjson.cpp
+CMakeFiles/untitled9.dir/simdjson.cpp.obj: ../simdjson.h
+
+CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../simdjson.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../trade_interface.cpp
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../trade_interface.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../user.h

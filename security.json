@@ -4,14 +4,23 @@
     "title": "Sample-Security",
     "liable_parties": ["shareholder_one", "shareholder_two"],
     "initial_split": [60,40],
-    "initial_offering": "$500"
+    "initial_offering": "$500",
+    "initial_cap_table": {
+      "share_holder_ID": ["shareholder_one","shareholder_two"],
+      "respective_holding": [600, 400]
+    }
   },
   "share_volume": 1000,
-  "abstract": [],
-  "cap_table": {
-    "share_holder_ID": ["shareholder_one","shareholder_two"],
-    "respective_holding": [600, 400]
-  },
+  "cap_table": [
+    {
+      "ID": "shareholder_one",
+      "Holdings": 600
+    },
+    {
+      "ID": "shareholder_two",
+      "Holdings": 400
+    }
+  ],
   "contract_text":
     {
       "security_overview": "general information regarding security and institution that is being offered",

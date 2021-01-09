@@ -5,6 +5,15 @@
 #include "trade_interface.h"
 #include <fstream>
 #include <sstream>
+#include "simdjson.h"
+
+void update_security(user* curr_user){
+    // navigate to cap table in json
+    // add/adjust users and information
+    /// maybe empty field in json and re-populate?
+
+    // change to rapidjson
+}
 
 void print_index(std::map<std::string,user*>& hash_map){
     // erase contents of secret_index.csv
@@ -14,7 +23,6 @@ void print_index(std::map<std::string,user*>& hash_map){
     auto it = hash_map.begin();
     for (std::pair<std::string, user*> element : hash_map) {
         secret_index << *element.second << std::endl;
-        std::cout << *element.second << std::endl; // delete
     }
 }
 

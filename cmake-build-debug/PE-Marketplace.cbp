@@ -98,6 +98,18 @@
 		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/query_processor.h">
 			<Option target="untitled9"/>
 		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/queue.cpp">
+			<Option target="untitled9"/>
+		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/queue.h">
+			<Option target="untitled9"/>
+		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/simdjson.cpp">
+			<Option target="untitled9"/>
+		</Unit>
+		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/simdjson.h">
+			<Option target="untitled9"/>
+		</Unit>
 		<Unit filename="C:/Users/Ashwi/OneDrive/Documents/GitHub/PE-Marketplace/trade_interface.cpp">
 			<Option target="untitled9"/>
 		</Unit>

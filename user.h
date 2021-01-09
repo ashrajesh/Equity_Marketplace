@@ -20,12 +20,13 @@ public:
     user(std::string temp_hash, std::string temp_name, double debit, double credit, int temp_owned);
     ~user()= default;
 
-    void debit(int val);
-    void credit(int val);
+    void debit(double val);
+    void credit(double val);
 
     void modify_ownership(int shares);
 
     double get_balance(); // return credits+debits
+    std::string get_hash();
 
     /// move to private:
     std::string new_user(std::string& temp_name); // provides 1 time hash that you will need to save (e.g. admin could email or manipulate secret index), appends hash table, sends hash to websocket

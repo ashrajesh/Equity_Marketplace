@@ -24,10 +24,10 @@ user::user(std::string temp_hash, std::string temp_name, double debit, double cr
     this->shares_owned = temp_owned;
 }
 
-void user::debit(int val){
+void user::debit(double val){
     this->debits += val;
 }
-void user::credit(int val){
+void user::credit(double val){
     this->credits += val;
 }
 
@@ -37,6 +37,10 @@ void user::modify_ownership(int shares){
 
 double user::get_balance(){
     return (debits-credits);
+}
+
+std::string user::get_hash() {
+    return this->hash_identifier;
 }
 
 std::string user::new_user(std::string& temp_name) {

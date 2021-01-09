@@ -230,6 +230,60 @@ query_processor.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/query_processor.cpp.s
 .PHONY : query_processor.cpp.s
 
+queue.obj: queue.cpp.obj
+
+.PHONY : queue.obj
+
+# target to build an object file
+queue.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/queue.cpp.obj
+.PHONY : queue.cpp.obj
+
+queue.i: queue.cpp.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/queue.cpp.i
+.PHONY : queue.cpp.i
+
+queue.s: queue.cpp.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/queue.cpp.s
+.PHONY : queue.cpp.s
+
+simdjson.obj: simdjson.cpp.obj
+
+.PHONY : simdjson.obj
+
+# target to build an object file
+simdjson.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/simdjson.cpp.obj
+.PHONY : simdjson.cpp.obj
+
+simdjson.i: simdjson.cpp.i
+
+.PHONY : simdjson.i
+
+# target to preprocess a source file
+simdjson.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/simdjson.cpp.i
+.PHONY : simdjson.cpp.i
+
+simdjson.s: simdjson.cpp.s
+
+.PHONY : simdjson.s
+
+# target to generate assembly for a file
+simdjson.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled9.dir\build.make CMakeFiles/untitled9.dir/simdjson.cpp.s
+.PHONY : simdjson.cpp.s
+
 trade_interface.obj: trade_interface.cpp.obj
 
 .PHONY : trade_interface.obj
@@ -305,6 +359,12 @@ help:
 	@echo ... query_processor.obj
 	@echo ... query_processor.i
 	@echo ... query_processor.s
+	@echo ... queue.obj
+	@echo ... queue.i
+	@echo ... queue.s
+	@echo ... simdjson.obj
+	@echo ... simdjson.i
+	@echo ... simdjson.s
 	@echo ... trade_interface.obj
 	@echo ... trade_interface.i
 	@echo ... trade_interface.s
