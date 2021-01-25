@@ -5,7 +5,9 @@
 #include "trade_interface.h"
 #include <fstream>
 #include <sstream>
-#include "simdjson.h"
+#include "rapidjson/document.h"
+#include "rapidjson/stringbuffer.h"
+#include "rapidjson/writer.h"
 
 void update_security(user* curr_user){
     // navigate to cap table in json
