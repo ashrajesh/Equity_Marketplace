@@ -25,6 +25,8 @@ void print_index(std::map<std::string,user*>& hash_map){
     auto it = hash_map.begin();
     for (std::pair<std::string, user*> element : hash_map) {
         secret_index << *element.second << std::endl;
+        /// below added for test case visual
+        std::cout << *element.second << std::endl;
     }
 }
 

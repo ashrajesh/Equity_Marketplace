@@ -22,7 +22,7 @@ public:
 
     void execute_order(std::map<std::string, user*>& hash_map); // update persistent data and JSON
     bool order_status();
-    int remaining_shares();
+    int remaining_shares(); // returns outstanding shares
 };
 
 

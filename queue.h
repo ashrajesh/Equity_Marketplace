@@ -15,7 +15,7 @@ private:
 
 public:
     queue();
-    queue(int);
+    //queue(int); // find out why added
     ~queue()= default;
 
     void push_order();
