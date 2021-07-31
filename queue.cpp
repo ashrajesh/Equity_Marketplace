@@ -5,7 +5,7 @@
 #include "queue.h"
 
 queue::queue() {
-
+    price = 0; // initialize market price as 0
 }
 
 void queue::push_order() {

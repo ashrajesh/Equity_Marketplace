@@ -43,6 +43,10 @@ std::string user::get_hash() {
     return this->hash_identifier;
 }
 
+int user::get_shares_owned() {
+    return this->shares_owned;
+}
+
 std::string user::new_user(std::string& temp_name) {
     this->name = temp_name;
     this->hash_identifier = std::to_string(std::hash<std::string>{}(temp_name)); // very simple, should look into other sha and hashing algorithms
@@ -62,6 +66,7 @@ std::ostream& operator << (std::ostream& out, user& user_ref){
     out << user_ref.hash_identifier << "," << user_ref.name << "," << user_ref.debits << "," << user_ref.credits << "," << user_ref.shares_owned;
     return out;
 }
+
 
 // login
 // hash_code

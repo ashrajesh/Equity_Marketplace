@@ -27,6 +27,7 @@ public:
 
     double get_balance(); // return credits+debits
     std::string get_hash();
+    int get_shares_owned();
 
     /// move to private:
     std::string new_user(std::string& temp_name); // provides 1 time hash that you will need to save (e.g. admin could email or manipulate secret index), appends hash table, sends hash to websocket

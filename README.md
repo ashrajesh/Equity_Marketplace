@@ -31,3 +31,7 @@ Fundamental Role of Market:
 Alternative Use cases:
 - Manage buy ins / buy outs of hedge funds or PE funds (return stake)
 - Provide foundational infrastructure for forward, futures, and options contracts
+
+
+
+Once public, migrate to Doxygen

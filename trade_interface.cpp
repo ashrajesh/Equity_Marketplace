@@ -8,11 +8,25 @@
 #include "rapidjson/document.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"
+#include <iostream>
 
 void update_security(user* curr_user){
     // navigate to cap table in json
     // add/adjust users and information
-    /// maybe empty field in json and re-populate?
+    /// maybe empty field in json and re-populate? (not possible through rapidjson
+
+    // find user in json
+    // delete
+    // replace with new params
+    rapidjson::StringBuffer s;
+    rapidjson::Writer<rapidjson::StringBuffer> writer(s);
+    writer.StartObject(); /// somehow navigate to captable section in json
+    writer.Key("ID");
+    writer.String(curr_user->get_hash().c_str());
+    writer.Key("Holdings");
+    writer.String(std::to_string(curr_user->get_shares_owned()).c_str());
+
+
 
     // change to rapidjson
 }
