@@ -35,3 +35,7 @@ Alternative Use cases:
 
 
 Once public, migrate to Doxygen
+How to add users? Must be manually inserted into json to prevent outside participation.
+
+Todo:
+- add json parsing for secret_index.csv population

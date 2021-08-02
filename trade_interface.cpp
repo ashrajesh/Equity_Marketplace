@@ -8,27 +8,40 @@
 #include "rapidjson/document.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"
+#include "rapidjson/istreamwrapper.h"
 #include <iostream>
 
-void update_security(user* curr_user){
-    // navigate to cap table in json
-    // add/adjust users and information
-    /// maybe empty field in json and re-populate? (not possible through rapidjson
-
-    // find user in json
-    // delete
-    // replace with new params
-    rapidjson::StringBuffer s;
-    rapidjson::Writer<rapidjson::StringBuffer> writer(s);
-    writer.StartObject(); /// somehow navigate to captable section in json
-    writer.Key("ID");
-    writer.String(curr_user->get_hash().c_str());
-    writer.Key("Holdings");
-    writer.String(std::to_string(curr_user->get_shares_owned()).c_str());
-
-
-
-    // change to rapidjson
+void update_security(user* curr_user, int new_holdings, std::string& json_path){
+    std::ifstream input(json_path);
+    std::cout << "a";
+    rapidjson::IStreamWrapper isw(input);
+    rapidjson::Document d;
+    d.ParseStream(isw);
+    std::cout << "a";
+    rapidjson::Value& cap_table = d["cap_table"];
+    std::cout << "a";
+    int user_pos = 0;
+    for(rapidjson::SizeType i = 0; i < cap_table.Size(); i++){
+        const rapidjson::Value& c = cap_table[i];
+        if(c == curr_user->get_name().c_str()){
+            user_pos = i;
+            break;
+        }
+    }
+    std::cout << "a";
+    rapidjson::Value& curr_ID = cap_table[user_pos];
+    std::string setMe = curr_user->get_name() + ":" + std::to_string(new_holdings);
+    std::cout << std::endl << setMe.c_str() << std::endl;
+    std::cout << "a";
+    curr_ID.SetInt(new_holdings);
+    cap_table[user_pos].SetString(setMe.c_str(), setMe.length());
+    rapidjson::StringBuffer buffer;
+    rapidjson::Writer<rapidjson::StringBuffer> writer(buffer);
+    d.Accept(writer);
+    std::cout << buffer.GetString() << std::endl;
+    std::ofstream output_file;
+    output_file.open("test_output.json");
+    output_file << buffer.GetString();
 }
 
 void print_index(std::map<std::string,user*>& hash_map){

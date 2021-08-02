@@ -41,6 +41,7 @@ CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/internal/stack.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/internal/strfunc.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/internal/strtod.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/internal/swap.h
+CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/istreamwrapper.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/memorystream.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/msinttypes/inttypes.h
 CMakeFiles/untitled9.dir/trade_interface.cpp.obj: ../rapidjson/msinttypes/stdint.h

@@ -13,12 +13,10 @@
   "share_volume": 1000,
   "cap_table": [
     {
-      "ID": "shareholder_one",
-      "Holdings": 600
+      "shareholder_one": 600
     },
     {
-      "ID": "shareholder_two",
-      "Holdings": 400
+      "shareholder_two": 400
     }
   ],
   "contract_text":

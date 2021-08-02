@@ -43,6 +43,11 @@ std::string user::get_hash() {
     return this->hash_identifier;
 }
 
+
+std::string user::get_name() {
+    return this->name;
+}
+
 int user::get_shares_owned() {
     return this->shares_owned;
 }

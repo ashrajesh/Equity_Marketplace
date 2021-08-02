@@ -27,6 +27,7 @@ public:
 
     double get_balance(); // return credits+debits
     std::string get_hash();
+    std::string get_name();
     int get_shares_owned();
 
     /// move to private:
